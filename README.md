@@ -9,7 +9,7 @@ View on [Docker Hub](https://hub.docker.com/r/llorllale/pdd-docker).
 Mount the desired project repo directory into the container's `/src` dir and run it:
 
 ```
-$ docker run -v $(pwd):/src llorllale/pdd-docker:1.0 -q -f=puzzles.xml
+$ docker run -v $(pwd):/src llorllale/pdd-docker:0.20.6 -q -f=puzzles.xml
 ```
 
 ## License
